@@ -6,6 +6,10 @@ export class ContaCorrente extends Conta {
     this.limite = limite;
   }
 
+  tarifaMensal() {
+    return 12.9;
+  }
+
   saldoDisponivel() {
     return this.saldo + this.limite;
   }
